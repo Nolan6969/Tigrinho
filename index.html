@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tigrinho</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Tigrinho - Caça Níquel Educacional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Jogo do Tigrinho - Caça Níquel Educacional</h1>
+
+    <div id="setup-area">
+        <input type="text" id="team1-name" placeholder="Nome da Equipe 1">
+        <input type="text" id="team2-name" placeholder="Nome da Equipe 2">
+        <button id="start-game">Iniciar Jogo</button>
+    </div>
+
+    <div id="game" style="display: none;">
+        <div id="pergunta"></div>
+        <div class="opcoes">
+            <button class="opcao"></button>
+            <button class="opcao"></button>
+            <button class="opcao"></button>
+            <button class="opcao"></button>
+        </div>
+        <div id="feedback"></div>
+        <button id="spin-button" disabled>Girar Caça-Níquel</button>
+        <button id="next-button" style="display: none;">Próxima Pergunta</button>
+        
+        <div class="slots">
+            <div class="slot" id="slot1">?</div>
+            <div class="slot" id="slot2">?</div>
+            <div class="slot" id="slot3">?</div>
+        </div>
+        
+        <div id="scores">
+            <h2 id="team1-display"></h2>
+            <div>Pontuação: <span id="team1-score">0</span></div>
+            <h2 id="team2-display"></h2>
+            <div>Pontuação: <span id="team2-score">0</span></div>
+        </div>
+
+        <button id="restart-button" style="display: none;">Reiniciar Jogo</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
